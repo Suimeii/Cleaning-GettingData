@@ -1,16 +1,23 @@
-#Code book Getting and Cleaning Data (COURSERA)
+# Code book Getting and Cleaning Data (COURSERA)
+
 This code book permite to located in the result.txt file of this repository.
-##Data
+
+## Data
+
 The result.txt data file is a text file. It contain lot of values.
 The first row contains : rows with each rows given activity and subject with 79 averaged signal measure and the following rows contain value of these variable.
 
 which are listed and described in the Variables section, and the following rows contain the values of these variables.
 We will describe the contain.
+
 ## CONTAIN
-###Identifiers
-•	####subject
+
+### Identifiers
+
+	#### subject
 Identify by integer from 1 to 30.
-•	####activity
+#### activity
+
 Activity is defined by 6 possible string value :
 o	WALKING: subject was walking
 o	WALKING_UPSTAIRS: subject was walking upstairs
@@ -18,7 +25,9 @@ o	WALKING_DOWNSTAIRS: subject was walking downstairs
 o	SITTING: subject was sitting
 o	STANDING: subject was standing
 o	LAYING: subject was laying
+
 ### Measurements
+
 Measurements are floating-point values, normalised and bounded within [-1,1].
 Normalisation, acceleration measurements (variables containing Accelerometer)  made in G (9.81 m.s⁻²) and gyroscope measurements (made in radians per second).
 A three-dimensionnal magnitude signals is calculated with Euclidean norm.
@@ -27,8 +36,10 @@ A three-dimensionnal magnitude signals is calculated with Euclidean norm.
 We identified two measurements classification domain:
 •	Time-domain signals prefixed by timeDomain  result from accelerometer and gyroscope signals.
 •	Frequency-domain signals prefixed by frequencyDomain  some of the time-domain signals from a Fast Fourier Transform .
-###Time-domain signals
-•	####Average body acceleration : X, Y and Z directions
+
+### Time-domain signals
+
+#### Average body acceleration : X, Y and Z directions
 o	timeDomainBodyAccelerometerMeanX
 o	timeDomainBodyAccelerometerMeanY
 o	timeDomainBodyAccelerometerMeanZ
